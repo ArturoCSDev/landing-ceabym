@@ -1,0 +1,136 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Accent/Primary Colors - CEABYM */
+    --ceabym-1: #fafffc;
+    --ceabym-2: #f3fcf6;
+    --ceabym-3: #e2f8eb;
+    --ceabym-4: #cff3df;
+    --ceabym-5: #b9ecd0;
+    --ceabym-6: #9ce2bd;
+    --ceabym-7: #73d4a4;
+    --ceabym-8: #11c181;
+    --ceabym-9: #0abf80;
+    --ceabym-10: #00b375;
+    --ceabym-11: #00834e;
+    --ceabym-12: #0c3e29;
+
+    /* Secondary/Gray Colors */
+    --secondary-1: #fcfcfd;
+    --secondary-2: #f9f9fb;
+    --secondary-3: #eff0f3;
+    --secondary-4: #e7e8ec;
+    --secondary-5: #e0e1e6;
+    --secondary-6: #d8d9e0;
+    --secondary-7: #cdced7;
+    --secondary-8: #b9bbc6;
+    --secondary-9: #8b8d98;
+    --secondary-10: #80828d;
+    --secondary-11: #62636c;
+    --secondary-12: #1e1f24;
+
+    /* UI Colors */
+    --background: #fff;
+    --foreground: var(--secondary-12);
+    
+    /* ShadCN System Colors */
+    --border: var(--secondary-6);
+    --input: var(--secondary-6);
+    --ring: var(--ceabym-7);
+    
+    --primary: var(--ceabym-9);
+    --primary-foreground: #fff;
+    
+    --secondary: var(--secondary-4);
+    --secondary-foreground: var(--secondary-11);
+    
+    --accent: var(--ceabym-3);
+    --accent-foreground: var(--ceabym-11);
+    
+    --destructive: #ff4d4f;
+    --destructive-foreground: #fff;
+    
+    --muted: var(--secondary-3);
+    --muted-foreground: var(--secondary-9);
+    
+    --popover: #fff;
+    --popover-foreground: var(--secondary-12);
+    
+    --card: #fff;
+    --card-foreground: var(--secondary-12);
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    /* Accent/Primary Colors - CEABYM */
+    --ceabym-1: #0b130f;
+    --ceabym-2: #111b16;
+    --ceabym-3: #132c20;
+    --ceabym-4: #0d3c28;
+    --ceabym-5: #114a32;
+    --ceabym-6: #18593d;
+    --ceabym-7: #1d6a49;
+    --ceabym-8: #1e7d56;
+    --ceabym-9: #0abf80;
+    --ceabym-10: #00b375;
+    --ceabym-11: #3bd695;
+    --ceabym-12: #abf3cd;
+
+    /* Secondary/Gray Colors */
+    --secondary-1: #111113;
+    --secondary-2: #19191b;
+    --secondary-3: #222325;
+    --secondary-4: #292a2e;
+    --secondary-5: #303136;
+    --secondary-6: #393a40;
+    --secondary-7: #46484f;
+    --secondary-8: #5f606a;
+    --secondary-9: #6c6e79;
+    --secondary-10: #797b86;
+    --secondary-11: #b2b3bd;
+    --secondary-12: #eeeef0;
+
+    /* UI Colors */
+    --background: #111;
+    --foreground: var(--secondary-11);
+    
+    /* ShadCN System Colors */
+    --border: var(--secondary-3);
+    --input: var(--secondary-5);
+    --ring: var(--ceabym-8);
+    
+    --primary: var(--ceabym-9);
+    --primary-foreground: #fff;
+    
+    --secondary: var(--secondary-4);
+    --secondary-foreground: var(--secondary-11);
+    
+    --accent: var(--ceabym-3);
+    --accent-foreground: var(--ceabym-11);
+    
+    --destructive: #ff4d4f;
+    --destructive-foreground: #fff;
+    
+    --muted: var(--secondary-3);
+    --muted-foreground: var(--secondary-9);
+    
+    --popover: var(--secondary-1);
+    --popover-foreground: var(--secondary-11);
+    
+    --card: var(--secondary-1);
+    --card-foreground: var(--secondary-11);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
