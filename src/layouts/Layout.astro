@@ -1,22 +1,20 @@
+---
+import '../styles/globals.css';
+import ThemeProvider from '../components/theme/theme-provider.astro';
+---
+
 <!doctype html>
-<html lang="en">
+<html lang="es" class="scroll-smooth">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro Basics</title>
+		<title>CEABYM | Centro de Estudios, Análisis y Biomarcadores</title>
+		<meta name="description" content="CEABYM es un laboratorio de análisis biológicos y microbiológicos especializado en análisis de sangre y atención personalizada de alta calidad." />
+		<ThemeProvider />
 	</head>
-	<body>
+	<body class="min-h-screen bg-background text-foreground">
 		<slot />
 	</body>
 </html>
-
-<style>
-	html,
-	body {
-		margin: 0;
-		width: 100%;
-		height: 100%;
-	}
-</style>
