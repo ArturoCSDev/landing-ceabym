@@ -160,7 +160,7 @@ export function Historia() {
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-secondary-12 dark:text-secondary-11">Carlos Enrique Cortegana Vargas</h3>
-                  <p className="text-ceabym-11 dark:text-ceabym-9">Fundador y Director</p>
+                  <p className="text-ceabym-11 dark:text-ceabym-9">Fundador y Gerente</p>
                 </div>
               </div>
               
@@ -169,7 +169,7 @@ export function Historia() {
               </p>
               
               <p className="text-lg text-secondary-12 dark:text-secondary-11 mb-6">
-                El Biólogo Microbiólogo Carlos Enrique Cortegana Vargas fundó este laboratorio en 2011, y desde entonces ha mantenido un equipo pequeño pero altamente capacitado de 2 a 3 profesionales que comparten su compromiso con la excelencia y la precisión.
+                El Biólogo especialista en análisis biologicos y microbiologicos Carlos Enrique Cortegana Vargas fundó este laboratorio en 2011, y desde entonces ha mantenido un equipo pequeño pero altamente capacitado de 2 a 3 profesionales que comparten su compromiso con la excelencia y la precisión.
               </p>
               
               <p className="text-lg text-secondary-12 dark:text-secondary-11 mb-6">

@@ -93,11 +93,13 @@ export function Ubicacion() {
                   <ul className="space-y-3">
                     <li className="flex justify-between">
                       <span className="text-secondary-12 dark:text-secondary-11">Lunes a Viernes:</span>
-                      <span className="text-ceabym-11 dark:text-ceabym-9 font-medium">7:30 AM - 7:30 PM</span>
+                      <span className="text-ceabym-11 dark:text-ceabym-9 font-medium">7:30 AM - 1:00 PM</span>
+                      <span className="text-ceabym-11 dark:text-ceabym-9 font-medium">4:00 PM - 6:30 PM</span>
                     </li>
                     <li className="flex justify-between">
                       <span className="text-secondary-12 dark:text-secondary-11">Sábados:</span>
-                      <span className="text-ceabym-11 dark:text-ceabym-9 font-medium">9:00 AM - 1:00 PM</span>
+                      <span className="text-ceabym-11 dark:text-ceabym-9 font-medium">8:00 AM - 1:00 PM</span>
+                      <span className="text-ceabym-11 dark:text-ceabym-9 font-medium">4:00 PM - 6:00 PM</span>
                     </li>
                     <li className="flex justify-between">
                       <span className="text-secondary-12 dark:text-secondary-11">Domingos:</span>
